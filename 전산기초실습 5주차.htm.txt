@@ -1,0 +1,93 @@
+<html>
+<meta charset=utf-8>
+
+<head>
+    <title>5주차 실습과제</title>
+</head>
+
+<body align=center bgcolor=#95A6F4 topmargin=30 leftmargin=70 rightmargin=70 bottom=100>
+    <fieldset>
+	<legend><font color=hotpink size=6><<전산기초실습 실습과제>></font></legend>
+	<h3 align=right><font face="궁서체" color="gray">
+	학번 : 20203196 &nbsp;&nbsp;&nbsp;이름 : 정민영</h3></font>
+	</fieldset>
+    <br>
+	<center>
+	<table height=120 width=600>
+	<tr>
+		<th valign=bottom> <font color=purple size=10>시</th>
+		<th valign=middle> <font color=navy size=10>간</th>
+		<th valign=top> <font color=green size=10>표</th>
+		<th valign=top> <font color=yellow size=10>만</th>
+		<th valign=middle> <font color=orange size=10>들</th>
+		<th valign=bottom> <font color=red size=10>기</th>
+		</tr>
+		</table>
+	</center>
+	<table align=center border=5 height=300 bordercolor=khaki
+	cellspacing=3>
+	<caption align=center><font size=6>★시간표★</font></caption>
+        <tr bordercolor=chartreuse bgcolor=beige>
+            <th width=70 height=60>교시</th>
+            <th width=200><u>월</u></th>
+			<th width=200><u>화</u></th>
+			<th width=200><u>수</u></th>
+			<th width=200><u>목</u></th>
+			<th width=200><u>금</u></th>
+        </tr>
+        <tr>
+            <th bordercolor=chocolate bgcolor=bisque>1</th>
+            <td bordercolor=white>&nbsp;</td>
+            <td rowspan=3 align=center valign=top bgcolor=maroon><i>컴퓨터개론</i></td>
+            <td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+            <td rowspan=2 align=center bgcolor=chartreuse><i>인터넷활동</i></td>
+        </tr>
+        <tr>
+            <th bordercolor=chocolate bgcolor=bisque>2</th>
+            <td bordercolor=white>&nbsp;</td>
+            <td bordercolor=white>&nbsp;</td>
+            <td bordercolor=white>&nbsp;</td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>3</th>
+			<td bordercolor=white>&nbsp;</td>
+			<td rowspan=2 align=right valign=bottom bgcolor=darkcyan><i>인터넷활동</i></td>
+			<td bordercolor=white>&nbsp;</td>
+			<td rowspan=3 align=center valign=bottom bgcolor=coral><i>영어회화</i></td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>4</th>
+			<td rowspan=3 align=center bgcolor=darksalmon><i>멀티미디어<br>개론</i></td>
+			<td rowspan=3 align=center bgcolor=darkviolet><i>경영학개론</i></td>
+			<td bordercolor=white>&nbsp;</td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>5</th>
+			<td bordercolor=white></td>
+			<td bordercolor=white></td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>6</th>
+			<td rowspan=2 bgcolor=floralwhite><i>컴퓨터활용</i></td>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>7</th>
+			<td rowspan=2 align=right bgcolor=deeppink><i>컴퓨터활용</i></td>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+		</tr>
+		<tr>
+			<th bordercolor=chocolate bgcolor=bisque>8</th>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+			<td bordercolor=white>&nbsp;</td>
+		</tr>
+    </table>
+</body>
+
+</html>

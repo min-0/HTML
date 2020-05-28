@@ -1,0 +1,15 @@
+<html
+<head>
+<title> 1주차 실습과제 </title>
+</head>
+<body bgcolor="#aaaaff" topmargin=40 leftmargin=40 rightmargin=40 bottommargin=70>
+<h2 align="center">전산기초실습 실습과제
+<h4 align="center">본 문서의 바탕색은 <font color="violet"> 보라색(violet)</font>입니다.</h4><br><br>
+<h5 align="right">학과:컴퓨터공학부<br>학번:20203196<br>이름:정민영</h5>
+<font color="red" size=5>***주의사항***</font><br><br>
+<font color="pink" size=-1>1.학번과 이름에는 본인의 학번과 이름을 입력하세요.</font><br><br>
+<font color="#ffff00" size=4>2.실습과제는 본인의 학번이름(예.20200001 홍길동.htm)으로 저장하세요.</font><br><br>
+<font color="orainge" size=5>3.실습과제 완료 시 메일(comgongkim@naver.com)로 제출하세요.파일 첨부 꼭!!!</font><br><br><br>
+<h3 align="center"> <font color="#ffffff" face="궁서체">모두 수고 많았습니다!</font>
+</body>
+</html>

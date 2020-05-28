@@ -1,0 +1,75 @@
+<html>
+<meta charset=utf-8>
+
+<head>
+    <title>4주차 실습과제</title>
+</head>
+
+<body align=center bgcolor="778800" topmargin=30 leftmargin=70 rightmargin=70 bottom=100>
+    <h1 align=center>
+        <font face="궁서체" color="white">전산기초실습 실습과제</font>
+    </h1>
+    <h3 align=right>학번 : 20203196 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이름 : 정민영</h3>
+    <hr width=1000 color=purple>
+    <font color=orange size=6>
+        <div align=left>시간표로 이동을 원하시면</div>
+    </font>
+    <a href="#시간표">
+        <h2 align=right>여기를 클릭해 주세요!</h2>
+    </a>
+    <hr width=1000 color=purple>
+    <a href=" http://www.inje.ac.kr/">
+	<img align=right src="인제마크.jpg" width=200 vspace=30 hspace=100></a>
+    <br><br>
+    <font color=brown size=5>
+        <div align=center>오른쪽 그림을 클릭하면<br>인제대학교 홈페이지로<br>이동합니다!</div>
+    </font>
+    <hr width=1000 color=purple>
+    <br><br><a name="시간표">
+        <font color=navy size=4>
+            <div align=center>***시간표***</center>
+        </font>
+    </a>
+    <table border=1>
+        <tr>
+            <th>교시</th>
+            <th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>&nbsp;</td>
+            <td rowspan=3>컴퓨터개론</td>
+            <td>&nbsp;</td>
+            <td colspan=2>공학수학</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<th>3</th>
+			<td>&nbsp;</td>
+			<td rowspan=2 colspan=2>인터넷활동</td>
+			<td rowspan=3>영어회화</td>
+		</tr>
+		<tr>
+			<th>4</th>
+			<td rowspan=2>멀티미디어 개론</td>
+			<td rowspan=2>경영학개론</td>
+		</tr>
+		<tr>
+			<th>5</th>
+			<td></td>
+			<td></td>
+		</tr>
+    </table>
+</body>
+
+</html>
