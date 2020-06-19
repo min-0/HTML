@@ -1,0 +1,19 @@
+자동 스크롤
+
+<marquee bgcolor= width= height= > 배경색 생성/좌우 크기/상하 크기
+
+<marquee hspace= vspace= > 좌우 여백/상하 여백
+
+<marquee scrolldelay= >
+
+<marquee scrollamount= >
+
+<marquee behavior=scroll/alternate/slide> 기본값/좌우 왕복/영역 끝에 멈춤
+
+<marquee loop= > 적은 숫자만큼 스크롤 실행
+
+스크롤 방향
+<marquee direction=left> 오른쪽 → 왼쪽
+<marquee direction=right> 왼쪽 → 오른쪽
+<marquee direction=up> 아래쪽 → 위쪽
+<marquee direction=down> 위쪽 → 아래쪽

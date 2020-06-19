@@ -1,0 +1,232 @@
+캡션 달기
+<html>
+<head><title>테이블만들기</title></head>
+<body bgcolor=skyblue>
+<center><b>테이블 캡션달기</b>
+<hr width=250 color=red>
+<table border=1>
+<caption>♡각 나라의 수도♡</caption>
+<caption align=bottom>♡각 나라의 수도♡</caption>
+<tr>
+	<th>국가명</th><th>수도명</th><th>대륙명</th>
+</tr>
+<tr>
+	<td>대한민국</td><td>서울</td><td>아시아</td>
+</tr>
+<tr>
+	<td>영국</td><td>런던</td><td>유럽</td>
+</tr>
+<tr>
+	<td>일본</td><td>도쿄</td><td>아시아</td>
+</tr>
+<tr>
+	<td>미국</td><td>워싱턴</td><td>북아메리카</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+//	table 태그에 추가(cell의 크기는 문자크기와 비례한다)
+//cell의 외부에 공간주기 cellspacing=??
+//cell의 내부에 공간주기 cellpadding=??
+//table 전체 넓이 조정 width=?? (%도 가능) -><th>,<td>에서도 쓸수 있다.
+//table 전체 높이 조정 height=?? -><tr>에서 쓸수 있다.
+//background="" 테이블에 이미지 넣기 (tr 뺴고는 사용 가능)
+
+//	<tr><th><td> 태그에 추가
+//문자 좌우 정렬 <align=??> left,center,right
+//문자 상하 정렬 <valign=??> top,middle,bottom
+
+//테이블태그나 <tr><th><td>에 bgcolor=??를 쓰면 색깔바뀜
+//bordercolor=?? 배경태두리 색깔 (tr,td,th에도 쓸수 있음)
+
+테이블안에 테이블만들기
+<html>
+<head><title>테이블만들기</title></head>
+<body>
+<center><b>테이블 캡션달기</b>
+<hr width=250 color=red>
+<table border cellpadding=10>
+<tr>
+	<td>테이블 1</td>
+	<td>테이블 2</td>
+</tr>
+<tr>
+	<td>테이블 3</td>
+	<td>
+		<table border cellpadding=10>
+		<tr>
+			<td>테이블 1</td>
+			<td>테이블 2</td>
+		</tr>
+		<tr>
+			<td>테이블 3</td>
+			<td>테이블 4</td>
+		</tr>
+		</table>
+	</td>
+<tr>
+</table>
+</center>
+</body>
+</html>
+
+테이블 %로 화면 분할
+<html>
+<head><title>테이블만들기</title></head>
+<body>
+<center><b>테이블을 이용한 화면 분할</b>
+<hr width=250 color=red>
+<table width=100% height=100%>	//100%로 만들어주기!!
+<tr height=50%>
+	<td width=30% bgcolor=yellowgreen>왼쪽 셀</td>
+	<td width=70% bgcolor=pink>오른쪽 셀</td>
+</tr>
+<tr height=50%>
+	<td colspan=2 bgcolor=skyblue></td>
+<tr>
+</table>
+</center>
+</body>
+</html>
+
+글상자 만들기
+<html>
+<head><title>글상자 만들기</title></head>
+<body bgcolor=pink>
+<h2 align=center>글상자 만들기</h2>
+<hr color=navy>
+<fieldset>
+<legend>글상자 만들기</legend>
+FIELDSET 태그로 글상자를 만들어 보아요.
+</fieldset><br><br>
+<fieldset>
+<legend align=center>글상자 만들기</legend>
+FIELDSET 태그로 글상자를 만들어 보아요.
+</fieldset><br><br>
+<fieldset>
+<legend align=right>글상자 만들기</legend>
+FIELDSET 태그로 글상자를 만들어 보아요.
+</fieldset>
+</body>
+</html>
+//legend는 글상자 제목
+
+자동 스크롤 지정하기
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>
+
+//	marquee 태그
+bgcolor 배경색
+width 넓이
+height 높이
+hspace 좌우여백
+vspace 상하여백
+
+스크롤 지연시간(scrolldelay)
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee bgcolor=yellow hspace=50 vspace=20>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrolldelay=80>	//디폴트 상태
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrolldelay=40>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrolldelay=160>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>
+
+스크롤 속도(scrollamount)
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee bgcolor=yellow hspace=50 vspace=20>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrollamount=2>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrollamount=6>	//디폴트 상태
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 scrollamount=10>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>
+
+스크롤 행동방식
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee bgcolor=yellow hspace=50 vspace=20 behavior=scroll>	//디폴트
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 behavior=alternate>	//좌우왕복
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 behavior=slide>	//텍스트 스크롤영역 끝에 멈춤.
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>
+
+스크롤 반복횟수 정하기
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee bgcolor=yellow hspace=50 vspace=20 loop=2>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 behavior=alternate loop=2>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 behavior=slide loop=infinite>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>
+
+스크롤 방향 바꾸기
+<html>
+<head><title>자동 스크롤 지정하기</title></head>
+<body bgcolor=pink>
+<h2 align=center>자동 스크롤 지정하기</h2>
+<hr color=navy>
+<marquee bgcolor=yellow hspace=50 vspace=20 direction=left>	//디폴트
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 direction=right>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 direction=up>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+<marquee bgcolor=yellow hspace=50 vspace=20 direction=down>
+텍스트가 오른쪽에서 왼쪽으로 스크롤 되면서 보여집니다.
+</marquee>
+</body>
+</html>

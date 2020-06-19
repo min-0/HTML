@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGI 양식</title>
+</head>
+<style>
+    fieldset {border: navy 2px slolid; width:350px; padding:10px}
+    input [type=submit] {color:red; background-color: lightblue;}
+</style>
+<body><b>CGI 양식을 그룹으로 묶기</b><hr>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            이름 : <input type="text" name="name" size="20">
+            나이 : <input type="text" name="age" size="4"><p>
+            주소 : <input type="text" name="address" size="40">
+        </fieldset><p>
+        <fieldset>
+            <legend>좋아하는 색상</legend>
+            <input type="checkbox" name="red" value="red">빨강
+            <input type="checkbox" name="yellow" value="yellow">노랑
+            <input type="checkbox" name="blue" value="blue">파랑
+            <input type="checkbox" name="green" value="green">초록
+        </fieldset><p>
+            <input type="submit" value="보내기">
+    </form>
+</body>
+</html>

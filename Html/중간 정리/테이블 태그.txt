@@ -1,0 +1,24 @@
+테이블 만들기
+
+<table border= align= width= height= cellpadding= cellspacing= >
+<caption align= top/bottom></caption>
+	<tr>
+		<th align=left/right/center valign=top/bottom></th>
+		<td align=left/right/center valign=top/bottom></td>
+	</tr>
+
+	<tr>
+		<th width= height= ></th>
+		<td width= height= ></td>
+	</tr>
+
+	<tr>
+		<th rowspan= colspan= ></th>
+		<td rowspan= colspan= ></td>
+	</tr>
+
+	<tr>
+		<th></th>
+		<td></td>
+	</tr>
+</table>

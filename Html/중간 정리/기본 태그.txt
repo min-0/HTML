@@ -1,0 +1,67 @@
+<html>
+<head><title>20192656장희재</title></head>
+<body bgcolor =  topmargin= leftmargin= rightmargin= >
+
+<h1 align=left right center>제목</h1>
+
+<font size= color= face= >글자</font>
+
+<p align=left right center justify>문단 구성</p>
+
+<div align=left right center justify>문단 구성</div>
+
+<center>
+
+-글씨 효과-
+
+<b> 굵게
+<strong> 굵게(중요한 내용)
+<i> 기울여쓰기
+<u> 밑줄
+<s> 취소선
+<strike> 취소선
+<sub> 아래첨자
+<sup> 위첨자
+<big> 크게
+<small> 작게
+
+-수평선-
+
+<hr size= color= width= align=left right center> 수평선
+
+-이미지-
+
+<img src= title= alt= > title: 이미지에 커서 올리면 뜨는 말/alt: 사진이 뜨지 않은 경우 사진 설명
+<img align=left right top middle bottom> 위치
+<img border= > 이미지 테두리
+<img width= height=> 가로, 높이 크기
+<img vspace= hspace=> 상하 여백, 좌우 여백
+
+-웹 문서-
+
+<a href="https://www.inje.ac.kr"></a>웹 문서 연결
+<a href= ><img src= ></a> 이미지 사용하여 연결
+<a title> 링크 설명
+<a name= ></a>가나다<a href="#top"></a> 가나다를 클릭하면 맨 위로 감
+<a href="mailto: "> 메일로 이동 
+
+-글상자-
+
+<fieldset>
+	<legend align= >제목</legend>
+	가나다
+</fieldset>
+
+-내부 프레임-
+
+<iframe src="about:blank"> 내부 프레임을 빈 상태로 두기
+<iframe name=" "> 프레임 이름 지정
+
+<a href=" " target="프레임 이름"> 지정한 프레임에 사이트 염
+<a href=" " target=_self> 기존 창에 사이트 열림
+<a href=" " target=_blank> 새 창에 사이트 열림
+<a href=" " target=_new> 새 창에 사이트 열림
+
+</body>
+</html>
+

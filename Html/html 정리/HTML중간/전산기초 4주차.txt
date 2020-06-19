@@ -1,0 +1,145 @@
+목록정의태그 <ul>
+
+<html>
+<head><title>목록정의태그</title></head>
+<body bgcolor="lightgreen">
+<b>내가 좋아하는 음악</b>
+<ul>
+<li>아! 대한민국</li>
+<li>네박자</li>
+<li>아름다운 강산</li>
+</ul>
+</body>
+<html>
+
+자동출바꿈에 빈줄하나/순서가없는 목차
+<ul type=disc> 꽉찬원
+<ul type=circle> 빈 원
+<ul type=square> 네모
+<li type>으로도 쓸수 있음.
+
+목록정의태그<ul> 중복일경우
+
+<html>
+<head><title>목록정의태그</title></head>
+<body bgcolor="lightgreen">
+<b>중첩된 경우</b>
+<ul>
+	<li>첫 번째 항목<p>
+	<ul>
+		<li>내부항목1<p>
+		<ul>
+			<li>세부목록1
+			<li>세부목록2
+			<li>세부목록3</ul><p>
+		<li>내부항목2
+		<ul>
+			<li>세부목록1
+			<li>세부목록2
+			<li>세부목록3</ul><p>
+	</ul>
+	<li>두 번째 항목<p>
+	<ul>
+		<li>내부항목1<p>
+		<ul>
+			<li>세부목록1
+			<li>세부목록2
+			<li>세부목록3</ul><p>
+		<li>내부항목2
+		<ul>
+			<li>세부목록1
+			<li>세부목록2
+			<li>세부목록3</ul><p>
+	</ul>
+</ul>
+</body>
+<html>
+
+목록정의태그 <ol>순서가 있음
+
+<html>
+<head><title>목록정의태그</title></head>
+<body bgcolor="lightgreen">
+<b>내가 좋아하는 음윽</b>
+<ol>
+<li>아! 대한민국</li>
+<li>네박자</li>
+<li>아름다운 강산</li>
+</body>
+<html>
+
+<ol type=a> a부터 순서대로
+<ol type=A start=5> A부터 5번째 부터
+<ol type=i> 소문자 아라비아
+<ol type=I> 대문자 아라비아
+<li value> 리스트 시작순서를 바꿈
+
+목록정의태그 정의리스트(용어의 설명)
+
+<html>
+<head><title>목록정의태그</title></head>
+<body bgcolor="lightgreen">
+<h3>정의 리스트</h3>
+<dl>
+<dt>HTML</dt>	//설명하고자하는 용어(젤 왼쪽부터)
+<dd>Hyper Text Markup Language</dd>	//설명하는부분(들여쓰기)
+<dt>CSS</dt>
+<dd>Cascading Style Sheets</dd>
+</dl>
+</body>
+</html>
+
+선그리기(자동 줄바꿈)
+
+<html>
+<head><title>선 그리기</title></head>
+<body bgcolor="lightgreen">
+<h2>선 그리기</h2>
+<b>보통괘선을 그려보면</b>
+<hr>
+</body>
+</html>
+
+선그리기 여러 속성(디폴트 상태 = 가운데정렬)
+
+<html>
+<head><title>선 그리기</title></head>
+<body bgcolor="lightgreen">
+<h2 align=center>선 그리기</h2>
+<b>보통괘선을 그려보면</b>
+<hr><br><br>
+<hr size=5 color=blue><br><br>
+<hr width=100><br><br>
+<hr width=50%><br><br>
+<hr width=100 align=right><br><br>
+<hr color=red><br><br>
+<hr color=green><br><br>
+<hr noshade> //음영 없앰
+</body>
+</html>
+//색깔이 들어가면 더 굵어 보임
+
+그림 삽입 태그
+
+<html>
+<head><title>그림 삽입 태그</title></head>
+<body bgcolor="lightgreen">
+<h2 align=center>이미지 삽입하기</h2>
+<hr size=5 color=blue><br><br>
+<img src="1.jpg">
+<img src="2.jpg">
+<img src="3.jpg">
+<hr noshade?
+</body>
+</html>
+//<img src="1.jpg" title="지구 행성에 오신 것을 환영합니다." alt="지구 이미지">
+title은 마우스를 이미지에 올렸을때 뜨는 메세지 alt는 오류였을때 뜨는 메세지
+
+그림 삽입 태그 속성
+align=left,right 그림의 위치
+align=top,middle,bottom 그림은 왼쪽에위치. 텍스트의 위치
+border 테두리
+width 너비(폭)
+height 높이
+
+폭만 지정하거나 높이만 지정하면 원본의 비율을 그대로 하되 크기만 조정한다.

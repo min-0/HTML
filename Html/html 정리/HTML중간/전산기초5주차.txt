@@ -1,0 +1,139 @@
+문서연결태그<a href="">+<a href="" title="">(마우스 올렸을때 뜨는 메세지)
+
+<html>
+<head><title>문서연결태그</title></head>
+<body bgcolor=lightblue>
+<center>
+<b>다른 웹 문서로 연결하기</b>
+<hr color=navy><br><br>
+<a href="index1.htm">MAIN화면으로</a>
+</center>
+</body>
+</html>
+
+이미지로 연결
+
+<html>
+<head><title>문서연결태그</title></head>
+<body bgcolor=lightblue>
+<center>
+<b>이미지를 이용하여 연결하기</b>
+<hr color=navy><br><br>
+<a href="1.html">
+<img src="코알라.jpg"></a>
+</body>
+</html>
+
+웹페이지 연결
+
+<html>
+<head><title>문서연결태그</title></head>
+<body bgcolor=lightblue>
+<center>
+<b>이미지를 이용하여 연결하기</b>
+<hr color=navy><br><br>
+<a href="http://www.inje.ac.kr">
+<h1>인제대학교</h1></a><br>
+<a href="http://www.inje.ac.kr">
+<img src="학교마크.jpg" border=4 width=300 title="인제대학교에 오신것을 환영합니다." alt="학교마크">
+</a>
+</center>
+</body>
+</html>
+
+상위,하위 폴더로 가기
+(하위)
+<a href=".\a\1.html">하위 폴더로 가기1</a><p> .\은 현재위치
+<a href="a\1.html">하위 폴더로 가기2</a> .\생략가능
+(상위)
+<a href="..\전산.html">상위 폴더로 가기1</a><p> ..쓰면 상위폴더로 올라감
+<a href="C:\Users\Student.PC-25\Desktop\전산.html">상위 폴더로 가기2</a> 경로지정
+
+문서내에서의 연결
+
+<html>
+<head><title>문서 연결 태그</title></head>
+<body bgcolor=lightgreen>
+<center>
+<b>동일 문서 내에서의 연결</b><p>
+<hr color=navy>
+<a name="top"><h3>여기가 TOP입니다.</h3></a>
+<img src="코알라.jpg" width=1500>
+<a href="#top" title="top으로 갑니다."><h1>top으로</h1></a>
+</center>
+</body>
+</html>
+(top이라고 지정된 곳으로 이동)
+
+전자메일 주소로 연결
+
+<html>
+<head><title>문서 연결 태그</title></head>
+<body bgcolor=lightgreen>
+<center>
+<b>메일 프로그램 연결하기</b><p>
+<hr color=navy><br>
+<h3>방문을 환영합니다!!!</h3><br>
+<address>
+작성자 : 양준석<p>
+궁금한 점이 있으시면
+<a href="mailto:wnstjr101@naver.com">wnstjr101@naver.com</a>
+으로 문의하여 주세요.
+</address>
+</center>
+</body>
+</html>
+(address안의 내용은 필기체로 나온다)
+
+테이블만들기
+
+<html>
+<head><title>문서 연결 태그</title></head>
+<body bgcolor=lightgreen>
+<center><b>테이블 실습</b><p>
+<hr width=200 color=red>
+<table>
+<tr>
+	<td>테이블 만들기</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+(tr은 행,td는 열,th는 헤더,굵은 글씨로 나옴)
+
+테이블 합치기
+
+<th rowspan=2>인제대학교</th>	(row2개를 합치는 거라서 1행과2행을 합침)
+<th colspan=2>인제대학교</th>	(col2개를 합치는 거라서 1열과 2열을 합침)
+row는 행,col은 열
+
+테이블 합치기 연습
+
+<html>
+<head><title>문서 연결 태그</title></head>
+<body bgcolor=lightgreen>
+<center><b>테이블 실습</b><p>
+<hr width=200 color=red>
+<table border=1>
+<tr>
+	<td colspan=4>우 리 나 라</td>
+	<td rowspan=4>대<br>한<br>민<br>국</td>
+</tr>
+<tr>
+	<td rowspan=4>대<br>한<br>민<br>국</td>
+	<td>&nbsp&nbsp&nbsp&nbsp</td><td>&nbsp&nbsp&nbsp&nbsp</td><td>&nbsp&nbsp&nbsp&nbsp</td>
+</tr>
+<tr>
+	<td></td><td>중</td><td></td>
+</tr>
+<tr>
+	<td>&nbsp&nbsp&nbsp&nbsp</td><td></td><td></td>
+</tr>
+<tr>
+	<td colspan=4>우 리 나 라</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

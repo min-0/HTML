@@ -1,0 +1,164 @@
+기본 구성
+<html>
+<head><title></title></head>
+<body>
+</body>
+</html>
+
+
+공백넣기
+
+<html>
+<head><title>3주차 실습</title></head>
+<body bgcolor="skyblue" text="purple">
+<h1>공백문자 넣는 방법</h1>
+컴퓨터공학부 1학년 홍길동<br><br>
+공백문자를                                             아무리 많이 넣어도 인식을 못한다.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;안녕
+</body>
+</html>
+
+
+특수문자
+
+<html>
+<head><title>3주차 실습</title></head>
+<body bgcolor="skyblue" text="purple">
+<h1>특수문자 넣는 방법</h1>
+&lt; h2 &gt; 는 제목글자의 크기를 지정하는 태그<br>
+<h2>&lt; h2 &gt;는 제목글자에 사용되는 태그</h2>
+&#60; font &#62; 는 글자크기와 글자색, 글자체를 지정하는 태그<br><br>
+A &amp; B 는 A and B를 의미함.<br><br>
+"따옴표" &quot;따옴표&quot;<br><br>
+&copy는 이렇게 나타남.
+</body>
+</html>
+
+
+주석달기
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>주석달기</h1>
+<!-- 글자색을 지정하는 font 태그 -->
+<font size=4 color=red>글자색 지정</font><br><br>
+<!--이 설명은 모두 주석입니다.-->
+위의 &lt;!--&nbsp;&nbsp;--&gt;안의 메세지는 나타나지 않습니다.<br><br>
+주석이니깐
+</body>
+</html>
+
+
+문단구성태그 <p>
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문단 구성 태그</h1>
+&lt; p &gt; 태그는 줄도 바꾸고 빈 줄도 삽입
+<br>첫 번째 문자열
+<p>두 번째 문자열
+<p>세 번째 문자열</p>	//종료 태그가 있으면 앞뒤로 띄운다.
+<br>네 번째 문자열
+</body>
+</html>
+
+//<p align=> 사용 가능.
+//<p align=justify>는 양쪽으로 가지런하게 만듬.
+
+
+문단구성태그<blockquote>
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문단 구성 태그</h1>
+<h3>문서의 특정 부분을 인용할 때 사용</h3>
+술 취한 시인이 말했다.
+<blockquote>"나는 술 마시는 것이 부끄러워 또 술을 마신다."</blockquote>
+그는 그저 술꾼일 뿐이다.
+</body>
+</html>
+
+//<p>와 비슷하지만 좌우 여백이 생긴다.(tap키 한번정도의 여백) 인용을 할때 사용
+//<q>태그는 따옴표로 묶는다.
+
+
+문단구성태그<div>
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문단 구성 태그</h1>
+<h3>줄을 바꾸어 문단을 나타내줌</h3>
+<div>첫 번째 문자열</div>
+<div>두 번째 문자열</div>
+<div>세 번째 문자열</div>
+<div align=left>왼쪽 정렬 문자열</div>
+<div align=center>가운데 정렬 문자열</div>
+<div align=right>오른쪽 정렬  문자열</div>
+<div align=justify>양쪽 정렬을 보려면 브라우저의 화면보다 문장을 길게 써주어야만 그 결과를 확인 할 수 있다. 그러므로 계속하여 문장을 쓰기 바란다.</div>
+<blockquote><div align=justify>양쪽 정렬을 보려면 브라우저의 화면보다 문장을 길게 써주어야만 그 결과를 확인 할 수 있다. 그러므로 계속하여 문장을 쓰기 바란다.</div></blockquote>
+<div>양쪽 정렬을 보려면 브라우저의 화면보다 문장을 길게 써주어야만 그 결과를 확인 할 수 있다. 그러므로 계속하여 문장을 쓰기 바란다.</div>
+</body>
+</html>
+
+
+문단구성태그<center>
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문단 구성 태그</h1>
+평상시에는 왼쪽에 맞추어 정렬<p>
+<center>지금부터는 가운데 정렬<br>
+나의 홈페이지</center><br>
+마지막 문자열(왼쪽정렬)
+</body>
+</html>
+//자동 줄바꿈
+
+
+문단구성태그<pre>
+
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문단 구성 태그</h1>
+<pre>
+<h3>	컴퓨터공학부
+
+1학년			2분반
+
+학번:		20143147
+
+이름:	양	준	석
+</h3></pre>
+</body>
+</html>
+
+//안에 있는 내용을 출력(태그)
+
+<pre> -> <xmp>로 바꾸면
+안에 있는 태그도 그대로 출력(태그 적용 X)
+
+문자 모양 태그
+<html>
+<head><title>3주차 실습</title></head>
+<body>
+<h1>문자 모양 태그</h1>
+나의 홈페이지1<p>
+<b>나의 홈페이지2</b><p> //진하게
+<strong>나의 홈페이지3</strong><p> //진하게
+<i>나의 홈페이지4</i><p> //이탤리 체
+<tt>나의 홈페이지5</tt><p>	 //타자체
+<u>나의 홈페이지6</u><p>  //밑에 줄
+<s>나의 홈페이지7</s><p>  //가운데 줄
+<strike>나의 홈페이지8</strike><p>  //취소선 표시
+나의 <sub>홈페이지</sub>9<p>  //아래 첨자
+나의 <sup>홈페이지</sup>10<p>  //위 첨자
+<big>나의 홈페이지11</big><p>  //조금 크게 표시 (기본폰트3->4)
+<small>나의 홈페이지12</small><p>  //조금 작게 표시(기본폰트3->2)
+</body>
+</html>

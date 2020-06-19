@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGI 양식</title>
+</head>
+<body><b>선택 목록 만들기</b><hr>
+    당신이 좋아하는 음악을 선택하여 주세요.<br><br>
+    <select name="music">
+        <optgroup label="=가요">
+            <option value=music1>네박자
+            <option value=music2>남행열차
+            <option value=music3>내 나이가 어때서
+        </optgroup>
+        <optgroup label="영화음악">
+            <option value="music4">사운드오브뮤직
+            <option value="music5">황야의 무법자
+        </optgroup>
+    </select>
+    <b>선택 목록 만들기</b><hr>
+    당신이 좋아하는 색상을 선택하여 주세요.<br><br>
+    <select name="color" size="2">
+        <option value="red">빨강
+            <option value="yellow">노랑
+            <option value="blue">파랑
+            <option value="orange">주황
+        </option>
+    </select>
+    <b>버튼에 이미지 넣기</b><hr>
+    <form>
+        <button>
+            <img src=이미지.png>저장하기
+        </button>
+        <button disabled>
+            <img src=이미지.png>저장하기
+        </button>
+    </form>
+</body>
+</html>

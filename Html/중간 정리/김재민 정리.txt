@@ -1,0 +1,89 @@
+-폰트-
+&nbsp =공백문자
+&lt; : <
+&gt : >
+&amp : &를 의미함
+&quot : 따옴표
+<--! 내용 !-->    : 주석달기
+<i>내용</i> :글자 기울이기
+<u>내용</u> :밑줄효과
+<b>내용</b> :텍스트를 강조 = <strong>내용</strong>
+<strike>내용</strike> :취소선 = <s></s>
+<sub>내용</sub> : 글자 아래로//<sup>내용</sup> : 글자 위로
+<big>내용</big> :텍스트를 한 단계 크게
+<pre>내용</pre> 
+-크기-
+태그 입력 후 width(가로) height(세로) size(크기) 융퉁성 있게 직접 다 대입
+-선-
+<hr size=굵기
+      width=길이
+      align=위치
+      color=색상 >
+
+-이미지-
+<img src="사진이름.확장파일명"
+         align=이미지 입력 뒤 글 위치정렬(top,middle,bottom,right,left,center)
+         width=가로 길이
+         height=세로 길이
+         alt=파일이 깨질 경우 대체 할 텍스트
+         title=이미지설명>
+
+-목록-
+*ul 과 ol의 차이!!*
+ul은 목록의 번호를 도형으로 표시 할 때
+ol은 목록의 번호를 문자로 표시 할 때
+
+<ul type =  disc(기본값=●)
+	 circle(○) 
+	 square(■)
+      start=번호>
+<ol type =1(숫자) 
+	 A(대문자 영어)
+	 a(소문자 영어)
+	 i(로마숫자 i ii iii)
+	 I(로마숫자 I II III)
+     start=번호>
+	start=목록 번호 지정 
+<li type=""
+     start="">
+ <li value> 지정한 번호와 동일한 차례의 기호 입력
+
+<dl> 정의목록
+	<dt> dl태그 내에 속하는 태그로 용어에 대한 정의를 함
+		<dd> 들여쓰기가 되면서 dt태그가 정의한 용어 설명
+
+링크
+<a href>=링크 이동 설정
+ex)<a href="주소명">TEXT</a>
+ex)<a href="주소명"><img src = ""></a>
+<a name= ""> </a>=이름 지정
+ <a href="# "> </a>=지정한 이름으로 이동
+
+표 만들기
+<table cellspacing=셀과 셀 사이 여백
+           cellpadding=셀 안쪽 여백
+           background=테이블 사진 삽입>
+<caption></caption>
+<tr align=좌우 방향 지정
+      valign=상하 방향 지정
+      width
+      height>
+	<th></th> :글 가운데+글 진하게
+	<td rowspan= 세로 칸 합치기 
+	      colspan=가로 칸 합치기 
+	      bgcolor=배경색
+	      bordercolor=색깔></td>
+</tr>
+-글상자-
+<fieldset> :글상자 생성
+<legend> :생성한 글상자의 제목 역활</legend>
+(제목에 그림도 삽입 가능)
+</fieldset>
+*fieldset은 크기 조절X 글상자내의 텍스트 크기 조절 통하여 글상자 크기 조절
+-스크롤-
+<marquee :스크롤 영역 생성
+	direction :영역내의 글자 이동방향 설정(up,down,left,right)
+	behavior: 글자들의 행동 형식 조절(alternate=튕기는거,slide=스크롤 끝나면 멈춤)
+	scrolldelay :스크롤 속도 조절(숫자가 높을수록 느려짐)
+	scrollamount :스크롤 속도 조절(숫자가 높을수록 빨라짐)
+	loop :스크롤 반복 횟수 지정>

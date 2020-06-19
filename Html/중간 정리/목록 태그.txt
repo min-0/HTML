@@ -1,0 +1,18 @@
+목록 만들기
+
+<ul type=disc circle square>
+	<li type = disc circle square></li>
+	<li></li>
+	<li></li>
+</ul>
+------------------------------------------
+<ol type=a/A/i/I start= >
+	<li value= >목록 앞 숫자 변경</li>
+	<li></li>
+	<li></li>
+</ol>
+------------------------------------------
+<dl>
+	<dt>정의 용어</dt>
+		<dd>정의 설명</dd>
+</dl>

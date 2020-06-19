@@ -1,0 +1,38 @@
+<html>
+<meta charset=utf-8>
+
+<head>
+    <title>CSS 레이아웃</title>
+	<style>		
+		body{margin:0;font-size:15pt}
+		#header {position:absolute;left:0;top:0;padding:20;
+			height:10%;width:100%;background-color:red;}
+		#nav {position:absolute;left:0;top:10%;padding:20;margin:0;
+			height:10%;width:100%;background-color:skyblue;}
+		#aside {position:absolute;left:70%;top:20%;margin:0;
+			padding:20 50;height:80%;width:30%;background-color:yellow;}
+		#section {position:absolute;left:0;top:20%;margin:0;
+			padding:20;height:70%;width:70%;background-color:green;}
+		#footer {position:absolute;left:0;top:90%;
+			padding:20;height:10%;width:70%;background-color:pink;}
+		li {float:left;white-space:pre}
+		a {text-decoration:none}
+	</style>
+</head>
+<body>
+<div id=header>(Header 영역)<p>
+	Div 태그와 Position 속성을 이용한 레이아웃</div>
+<div id=nav>(Navigation Link)
+	<ul>
+		<li><a href=#>메뉴1          </a></li>
+		<li><a href=#>메뉴2          </a></li>
+		<li><a href=#>메뉴3          </a></li>
+		<li><a href=#>메뉴4          </a></li>
+	</ul>
+</div>
+<div id=aside>(Aside 영역)</div>
+<div id=section>(Section 영역)</div>
+<div id=footer>(Footer 영역)</div>
+</body>
+
+</html>
