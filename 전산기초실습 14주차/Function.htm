@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavasSript</title>
+    <script>
+        function getsum(y)
+        {
+            total=0;
+            for(var count=1; count<=y; count++)
+            total+=count;
+            return total;
+        }
+    </script>
+</head>
+<body><b>function</b><hr>
+    <script>
+        x=prompt ("100이하의 숫자를 입력하세요!", "1");
+        document.write("0부터 "+ x + "까지의 합은?", getsum(x));
+    </script>
+</body>
+</html>
